@@ -28,15 +28,21 @@
             background-attachment: fixed;
             font-family: Arial, sans-serif;
             color: white;
-            text-align: center;
             padding: 20px;
+        }
+
+        .content {
+            max-width: 600px;
+            margin: 20px auto;
+            text-align: left;
+            padding-left: 20px;
         }
 
         h1 {
             margin-top: 20px;
         }
 
-        a {
+        .app-list a {
             display: block;
             margin: 10px 0;
             color: white;
@@ -44,20 +50,23 @@
             text-decoration: none;
         }
 
-        a:hover {
+        .app-list a:hover {
             text-decoration: underline;
         }
     </style>
 </head>
 <body>
-    <h1>All of my favorite and most impressive applications!</h1>
-    
-    <a href="https://github.com/zacattak/Keepr">Keepr</a>
-    <a href="https://github.com/zacattak/Tower">Fun Events</a>
-    <a href="https://github.com/zacattak/The_Network">The Network</a>
-    <a href="https://github.com/zacattak/Inspire">Inspire</a>
-    <a href="https://github.com/zacattak/jot-checkpoint">Jot</a>
-    <a href="https://github.com/zacattak/Moon-Miner">Moon Miner</a>
-    <a href="https://github.com/zacattak/octopus_checkpoint">Octopi</a>
+    <div class="content">
+        <h1>My applications</h1>
+        <div class="app-list">
+            <a href="https://github.com/zacattak/Keepr">Keepr</a>
+            <a href="https://github.com/zacattak/Tower">Fun Events</a>
+            <a href="https://github.com/zacattak/The_Network">The Network</a>
+            <a href="https://github.com/zacattak/Inspire">Inspire</a>
+            <a href="https://github.com/zacattak/jot-checkpoint">Jot</a>
+            <a href="https://github.com/zacattak/Moon-Miner">Moon Miner</a>
+            <a href="https://github.com/zacattak/octopus_checkpoint">Octopi</a>
+        </div>
+    </div>
 </body>
 </html>
