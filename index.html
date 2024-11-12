@@ -28,7 +28,7 @@
 
         .app-list a {
             display: block;
-            margin: 10px 0;
+            margin: 10px 0 5px 0;
             color: white;
             font-size: 1.2em;
             text-decoration: none;
@@ -37,6 +37,12 @@
         .app-list a:hover {
             text-decoration: underline;
         }
+
+        .app-description {
+            font-size: 0.9em; /* Make description text smaller */
+            color: #ddd;      /* Slightly lighter color */
+            margin: 0 0 15px 0; /* Adjust margin for spacing */
+        }
     </style>
 </head>
 <body>
@@ -44,12 +50,25 @@
         <h1>My applications</h1>
         <div class="app-list">
             <a href="https://github.com/zacattak/Keepr">Keepr</a>
+            <p class="app-description">A social network application that enables users to share and organize visual content by creating “Keeps” and saving them to themed “Vaults”. Users can browse popular keeps, save them to their collections, and create public or private vaults. The app is built with a Vue.js frontend, Vue-Router, DotNet WebApi for the backend, MySQL database, and utilizes Auth0 for authentication and Dapper for ORM.</p>
+            
             <a href="https://github.com/zacattak/Tower">Fun Events</a>
+            <p class="app-description">An event-planning application that helps users connect for gatherings like concerts, expos, and sporting events. The app features a Vue.js frontend with Vue-Router for navigation, while the backend is powered by an Express and Node.js server with MongoDB and Mongoose handling data storage. Auth0 is integrated for secure user authentication, and a suite of API tests ensures the server meets functional specifications.</p>
+            
             <a href="https://github.com/zacattak/The_Network">The Network</a>
+            <p class="app-description">A social platform application that allows users to connect, share posts, and interact with each other. Users can create, edit, and delete posts, like others’ posts, and manage their profiles. The app includes search functionality to find users and posts and displays random advertisements on each page. Built using Vue.js and Vue-Router for the frontend, the app integrates Auth0 for user authentication and interacts with a backend API for managing user profiles, posts, and ads.</p>
+            
             <a href="https://github.com/zacattak/Inspire">Inspire</a>
+            <p class="app-description">	A "to-do" list application utilizing multiple asynchronous calls, multiple services and controllers, and user authentication (via Auth0) to demonstrate students’ ability to render complex, real-time data into a cohesive and visually engaging application.</p>
+            
             <a href="https://github.com/zacattak/jot-checkpoint">Jot</a>
+            <p class="app-description">A feature-rich note-taking application demonstrating MVC architecture, persistent data storage using local storage, dynamic data rendering, and CRUD operations for organizing user notes effectively.</p>
+            
             <a href="https://github.com/zacattak/Moon-Miner">Moon Miner</a>
+            <p class="app-description">A space-mining game application demonstrating DOM manipulation, Bootstrap styling, and event handling to simulate resource mining, with upgrades for automatic and manual resource collection.</p>
+            
             <a href="https://github.com/zacattak/octopus_checkpoint">Octopi</a>
+            <p class="app-description">A siteclone based on a figma demonstrating fundamental HTML, CSS and bootstrap design principles.</p>
         </div>
     </div>
 </body>
